@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.BGimg {
+  background-image: url("/src/img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100%;
+  min-height: 80vh;
+}
+
+.parad {
+  color: aliceblue;
+  font-size: 40px;
+
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15rem;
+}
+.chapt {
+  padding: 20px 40px;
+}

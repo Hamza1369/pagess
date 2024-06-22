@@ -23,7 +23,7 @@ const SecondPage = () => {
     return (
         <div className="flex justify-center flex-col items-center w-full gap-5">
             {hg.map((link) => (
-                <img src={link} alt="" className="min-w-[375px]  h-[350px] object-contain mx-auto" />
+                <img src={link} alt="" className="min-w-[375px]  object-contain mx-auto" />
             ))}
         </div>
     );
