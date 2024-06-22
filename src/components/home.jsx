@@ -1,19 +1,18 @@
-import React from 'react'
-import Bg from '../img/bg.jpg'
+import React from "react";
+// import Bg from "../img/bg.jpg";
 const Home = () => {
-    return (
-        <div className="">
-            <div className='BGimg'>
-                <img src={Bg} height={100} alt="compound-stack" />
-            </div>
-
-            <main className="p-4">
-                <p className="text-lg">
-                    This is a sample React application styled with Tailwind CSS.
-                </p>
-            </main>
+  return (
+    <div className="MAIN">
+      <div className="BGimg">
+        <div className="parad">
+          <h1 className="parad1">PARANOIZE</h1>
         </div>
-    )
-}
+      </div>
+      <div>
+        <h1 className="chapt">10 Chapters</h1>
+      </div>
+    </div>
+  );
+};
 
-export default Home
+export default Home;
