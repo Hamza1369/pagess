@@ -21,5 +21,7 @@
   padding-top: 15rem;
 }
 .chapt {
-  padding: 20px 40px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 18px;
 }
