@@ -19,10 +19,10 @@ const hg = [
     "https://paranoize.otomeserver.com/AllFrames/e001-17.png",
     "https://paranoize.otomeserver.com/AllFrames/e001-18.png",
 ];
-const SecondPage = () => {
+const SecondPage = (props) => {
     return (
         <div className="flex justify-center flex-col items-center w-full gap-5">
-            {hg.map((link) => (
+            {props?.imag?.Manga?.map((link) => (
                 <img src={link} alt="" className="min-w-[375px]  object-contain mx-auto" />
             ))}
         </div>
