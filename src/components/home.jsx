@@ -1,5 +1,5 @@
 import React from "react";
-// import Bg from "../img/bg.jpg";
+
 const Home = () => {
   return (
     <div className="MAIN">
