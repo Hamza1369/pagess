@@ -6,7 +6,11 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+<<<<<<< HEAD
     "antd": "^5.18.3",
+=======
+    "js-cookie": "^3.0.5",
+>>>>>>> 4dadf104781f7e639d3fdbf942cbf710627cdaeb
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.23.1",
